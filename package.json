@@ -1,0 +1,19 @@
+{
+  "name": "babydogesolidity-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-contracts": "sol-merger \"./contracts/*.sol\" ./build",
+    "build-token-contracts": "sol-merger \"./contracts/stub.sol\" ./build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sol-merger": "^3.1.0"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.4.1"
+  }
+}
